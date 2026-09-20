@@ -1,0 +1,9 @@
+{
+  "event_id": "evt-092105-009-0001",
+  "event_type": "APPLICATION_SUBMITTED",
+  "aggregate_type": "permit_application",
+  "aggregate_id": "night-tour-ecology-permit-001",
+  "occurred_at": "2026-09-20T12:00:00+08:00",
+  "version": 1,
+  "summary": "登记夜游生态扰动许可的首条领域记录"
+}
