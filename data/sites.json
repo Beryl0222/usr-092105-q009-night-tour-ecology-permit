@@ -1,0 +1,51 @@
+{
+  "sites": [
+    {
+      "site_id": "site-firefly-valley",
+      "name": "萤火谷观察径",
+      "sensitive_zones": [
+        { "zone_id": "core", "name": "核心繁殖区", "level": "high", "recommended_capacity": 300 }
+      ],
+      "species_windows": [
+        {
+          "species": "萤火虫",
+          "note": "繁殖求偶期，对光谱与照度敏感，短波光抑制求偶信号",
+          "start_md": "05-01",
+          "end_md": "08-31",
+          "suggested_limits": {
+            "light": { "spectrum_min_nm": 590, "max_lux": 5, "curfew": "21:30" }
+          }
+        }
+      ]
+    },
+    {
+      "site_id": "site-old-town",
+      "name": "古城墙夜游区",
+      "sensitive_zones": [
+        { "zone_id": "residential", "name": "毗邻居民区", "level": "medium", "recommended_capacity": 2000 }
+      ],
+      "species_windows": [],
+      "standing_limits": {
+        "noise": { "max_db": 60, "amplified_end": "21:30" }
+      }
+    },
+    {
+      "site_id": "site-lakeside-camp",
+      "name": "湖畔露营区",
+      "sensitive_zones": [
+        { "zone_id": "shore", "name": "湖岸生态缓冲带", "level": "high", "recommended_capacity": 500 }
+      ],
+      "species_windows": [
+        {
+          "species": "越冬候鸟",
+          "note": "候鸟栖息期，夜间强光与扩音干扰栖息",
+          "start_md": "10-01",
+          "end_md": "03-31",
+          "suggested_limits": {
+            "noise": { "max_db": 50, "amplified_end": "20:30" }
+          }
+        }
+      ]
+    }
+  ]
+}
