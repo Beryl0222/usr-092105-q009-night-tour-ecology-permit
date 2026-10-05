@@ -22,9 +22,14 @@
       "type": "string",
       "enum": [
         "APPLICATION_SUBMITTED",
+        "EDITION_REGISTERED",
         "CONDITION_ISSUED",
         "SAMPLE_RECORDED",
+        "FEEDBACK_RECEIVED",
+        "FEEDBACK_ASSESSED",
         "BREACH_CONFIRMED",
+        "SUSPENSION_ORDERED",
+        "RECTIFICATION_RECORDED",
         "ACTIVITY_RESUMED"
       ],
       "description": "本领域事件类型"
@@ -35,6 +40,7 @@
         "permit_application",
         "operating_condition",
         "monitoring_sample",
+        "resident_feedback",
         "enforcement_decision"
       ],
       "description": "业务对象类型"
